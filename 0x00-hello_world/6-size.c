@@ -10,4 +10,5 @@ int main(void)
 	long int c;
 	long long int d;
 	float f;
-	printf(
+printf("Size of a char: %lu byte(s)\n"0, (unsigned long)
+sizeof(a));
