@@ -1,3 +1,13 @@
 #include <stdio.h>
 /**
- * main - A program that prints the size of computer types
+ * main - A program that prints the size of computer type
+ *Return 0 (Success)
+ */
+int main(void)
+{
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float f;
+	printf(
