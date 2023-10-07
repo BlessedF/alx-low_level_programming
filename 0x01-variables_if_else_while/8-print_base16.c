@@ -3,7 +3,8 @@
  * main - Prog Entry point
  * Return: Always 0 (Success)
  */
-int main (void)
+
+int main(void)
 {
 	char c;
 
@@ -11,7 +12,7 @@ int main (void)
 
 	c = 'a';
 	d = 0;
-	while 
+	while
 		(d < 10) {
 			putchar(d + '0');
 			d++;
