@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_numbers that checks for a digit (0 thru 9)
+ * print_numbers - func checks for checks for a digit (0 through 9).
  * Return: 0
  */
 void print_numbers(void)
