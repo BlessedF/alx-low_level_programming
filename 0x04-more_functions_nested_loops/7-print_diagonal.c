@@ -1,3 +1,4 @@
+
 #include "main.h"
 /**
  * print diagonal - func draws a diagonal line on the terminal
