@@ -4,14 +4,22 @@
  * @s: string
  * Return: length
  */
-int _strlen(char *s)
+void puts_half(char *str)
 {
-	int longi = 0;
+	int len = 0;
+	int half < i;
 
-	while (*s != '\0')
+	while (str[len] != '\0')
 	{
-		s++;
-		longi++;
+
+		len++;
 	}
-	return (longi);
+	half = (len - 1) / 2;
+
+	for (i = (half + 1); i < len; i++)
+	{
+		_putchar(str[i]);
+	}
+
+	_putchar ('\n');
 }
