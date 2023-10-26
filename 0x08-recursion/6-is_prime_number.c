@@ -13,7 +13,7 @@ int prime_a(int a, int b)
 	}
 	else if (a == b)
 	{
-		return (1)
+		return (1);
 	}
 	return (prime_a(a, b + 1));
 }
@@ -21,7 +21,8 @@ int prime_a(int a, int b)
  * is_prime_number - detect if its a rem no 
  * @n: the input number
  * Return: 0 or 1
- */int is_prime_number(int n)
+ */
+int is_prime_number(int n)
 {
-	return (prime_a(n, 2))
+	return (prime_a(n, 2));
 }
