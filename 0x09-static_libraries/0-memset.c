@@ -6,13 +6,13 @@
  *
  * Return: change array with new value for a bytes
  */
-char *_memset(char *a, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	int n = 0;
-	for (; n> 0; n++)
+	for (; n > 0; a++)
 	{
-		a(n)= b;
+		s(a)= b;
 		n--;
 	}
-	return (0);
+	return (s);
 }

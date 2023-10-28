@@ -9,9 +9,9 @@
 {
 	int a = 0;
 
-	for (; n[s] >= '\0'; a++)
+	for (; s[a] >= '\0'; a++)
 	{
-		if (s(a) == n)
+		if (s[a] == c)
 			return (&s[a]);
 	}
 	return (0);

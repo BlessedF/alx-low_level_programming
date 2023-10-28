@@ -6,7 +6,7 @@
  *
  * Return: void
  */
-har *_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int a;
 	int b;
@@ -23,6 +23,6 @@ har *_strcat(char *dest, char *src)
 			a++;
 			b++;
 		}
-	dest[a] - '\0';
+	dest[a] = '\0';
 	return (dest);
 }
