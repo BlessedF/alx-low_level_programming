@@ -12,10 +12,13 @@ int main(int argc, char **argv)
 
 	if (argc == 1 || argc > 2)
 	{
-		printf('"Error\n")
+		printf('"Error\n");
+
 			return (1);
 	}
+
 	cents = atoi(argv[1]);
+
 	while (cents > 0)
 	{
 		if (cents >= 25)
@@ -28,7 +31,6 @@ int main(int argc, char **argv)
 			cents -= 2;
 		if (cents >= 1)
 			cents -= 1;
-			mncoin += 1;
 	}
 	printf("%d\n", mncoin);
 	return (0);
