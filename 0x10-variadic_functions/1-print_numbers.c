@@ -2,10 +2,11 @@
 /**
  * print_numbers - print integers
  * @separator: string to be printed btwn numbers
+ * @n: number of ints to print
  * Return: void
  */
 
-void print_numbers(const char *separator, const unsigned int n, ...);
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i, arr;
 
