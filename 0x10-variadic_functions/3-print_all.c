@@ -29,4 +29,23 @@ void print_all(const char * const format, ...)
 			check_stat = 0;
 			break;
 			case 'c':
-			printf("%c", va_arg(spc,
+			printf("%c", va_arg(spc, int));
+			check_stat = 0;
+			break;
+			case 's':
+			str = va_arg(spc, char *);
+			if (str == NULL)
+				str = "(nil)";
+			printf("%s", str);
+			break;
+			default:
+			check_stat = 1;
+			break;
+		}
+		if (format[i + 1] != '\0' && check_stat == 0)
+			printf(", ");
+		i++;
+	}
+	printf("\n");
+	va_end(spc);
+}
